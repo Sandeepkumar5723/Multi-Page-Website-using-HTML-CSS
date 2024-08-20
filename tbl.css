@@ -1,0 +1,91 @@
+/* Reset margin and padding
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+/* Main content styling 
+#main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Header styling 
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+    background: #333;
+    color: #fff;
+}
+
+header .logo {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    transition: background 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #333;
+    background: #ddd;
+}
+
+/* Table styling 
+table.timetable {
+    width: 80%;
+    margin: 2em 0;
+    background-color: rgb(245, 238, 239);
+    border-collapse: collapse;
+}
+
+table.timetable th, table.timetable td {
+    border: 2px solid #000;
+    padding: 1em;
+    text-align: center;
+}
+
+table.timetable th {
+    background-color: yellow;
+}
+
+/* Footer styling 
+footer {
+    width: 100%;
+    background: black; 
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 1em 0;
+    color: blanchedalmond;
+}
+
+footer marquee {
+    color: blanchedalmond;
+    font-size: 20px; /* Adjusted to fit within footer 
+    font-style: italic;
+    white-space: nowrap;
+} */
