@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Placement Screening - Login</title>
+  <link rel="stylesheet" href="./assets/css/t.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="./assets/imgs/logo.jpg" alt="logo">
+        <nav>
+            <ul class="nlinks">
+                <li><a href="hm.html">Home</a></li>
+                <li><a href="tbl.html">Table</a></li>
+                <li><a href="zoro.html">login</a></li>
+                <li><a href="abt.html">About</a></li>
+                <li><a href="rgd.html">Registration</a></li>
+            </ul>
+        </nav>
+    </header>
+  <main>
+    <form action="login_process.php" method="post">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+      <button type="submit">Login</button>
+    </form>
+  </main>
+</body>
+<footer>
+    <marquee behaviour="scroll" direction="" scrollamount="15">Thank you for visiting</marquee>
+</footer>
+</html>
